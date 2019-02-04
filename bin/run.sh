@@ -2,8 +2,6 @@
 
 set -e
 
-echo 'ello govner'
-
 rm -rf out
 
 tsc
