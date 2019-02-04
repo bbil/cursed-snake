@@ -1,0 +1,27 @@
+{
+  "name": "cursed-snake",
+  "version": "1.0.0",
+  "description": "Play snake using react and blessed",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/run.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "react": "^16.7.0",
+    "react-blessed": "^0.5.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "typesafe-actions": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.10",
+    "@types/react": "^16.7.0",
+    "@types/react-blessed": "^0.3.0",
+    "@types/react-redux": "^7.0.1",
+    "typescript": "^3.3.1"
+  }
+}
