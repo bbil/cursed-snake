@@ -23,7 +23,8 @@ screen.key(['left', 'right', 'up', 'down'], (_, key) => {
 // Adding a way to quit the program
 screen.key(['escape', 'q', 'C-c'], function(ch, key) {
   return process.exit(0);
-});
+})
 
 // Rendering the React app using our screen
-const component = render(<App store={store} />, screen);
+const component = render(<App store={store} />, screen)
+
